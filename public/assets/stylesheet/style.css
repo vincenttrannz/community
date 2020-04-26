@@ -1679,7 +1679,7 @@ nav .link-hover:hover {
   left: 0;
   overflow: hidden;
   max-width: 0;
-  color: #46a1f0;
+  color: greenyellow;
   content: attr(data-hover);
   -webkit-transition: max-width 0.5s;
   -moz-transition: max-width 0.5s;
@@ -2012,7 +2012,7 @@ nav .link-hover:hover {
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color: #46a1f0;
+  background-color: green;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
@@ -2062,15 +2062,35 @@ nav .link-hover:hover {
   margin-bottom: 0;
 }
 .header .navbar {
+  padding-top: 8px;
   margin-bottom: 0;
   border-radius: 0;
   min-height: 100px;
-  border: none;
+  border-bottom: 1.5px green solid;
 }
 .header .navbar .logo {
   height: 100px;
   line-height: 100px;
 }
+
+/* LOGO AND TEXT ADD ON */
+.logo-text{
+  display: flex;
+}
+
+.logo-text h3{
+  margin-top: 30px;
+  align-self: center;
+}
+
+.logo-text h3:first-of-type{
+  color: rgb(13, 85, 29);
+}
+
+.logo-text h3:last-of-type{
+  color: rgb(150, 213, 28);
+}
+
 .header .navbar .logo-light {
   display: none;
 }
@@ -2092,7 +2112,7 @@ nav .link-hover:hover {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 24px;
-  color: #777777;
+  color: white;
   padding: 45px 0 8px;
 }
 .nav .open > a,
@@ -2114,9 +2134,9 @@ nav .link-hover:hover {
   position: absolute;
   top: 75px;
   left: auto;
-  width: 20px;
+  width: 25px;
   height: 2px;
-  background: #46a1f0;
+  background: greenyellow;
   content: '';
   opacity: 0;
   -webkit-transition: all 0.3s ease;
@@ -2658,7 +2678,7 @@ ul.dropdown-menu > li.has-dropdown > a:after {
 }
 .transparent-header .navbar-nav li.has-dropdown > a:hover,
 .transparent-header .navbar-nav li.has-dropdown.active > a {
-  color: #46a1f0;
+  color: greenyellow;
 }
 .transparent-header .module .module-icon > i {
   color: #ffffff;
@@ -2667,7 +2687,7 @@ ul.dropdown-menu > li.has-dropdown > a:after {
   top: 100px !important;
 }
 .transparent-header .navbar.affix {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(40, 90, 15, 0.300);
 }
 .transparent-header .navbar.affix .top-bar {
   display: none;
@@ -3420,7 +3440,7 @@ transform: translateY(0);
   ul.mega-menu li a:focus,
   ul.mega-menu li a:hover {
     background-color: #f6f6f7;
-    color: #46a1f0;
+    color: rgb(13, 85, 29);
     padding: 0 0 0 26px;
   }
   ul.dropdown-menu.left {
@@ -3669,7 +3689,7 @@ transform: translateY(10%);
     display: none;
   }
   nav .link-hover:hover {
-    color: #46a1f0 !important;
+    color: greenyellow !important;
   }
 }
 /*------------------------------------*\
@@ -4037,27 +4057,24 @@ transform: translateY(10%);
   padding-top: 0;
 }
 
-.shortcode-9 .color-overlay{
-  border-top: 2.5px solid rgb(118, 183, 223);
-  opacity: 0.9;
-  display: relative;
-}
-
 .video-container{
+  border-top: 2px solid green;
   width: 100%;
-  height: 100px;
+  height: 40px;
   display: relative;
+  opacity: 0.9;
   top: 0;
 }
 
 .video-container video{
-  width: inherit;
-  height: auto;
-  
+  display: inline-flex;
+  width: auto;
+  height: 900px;
 }
 
 .shortcode-9 .num {
-  color: #46a1f0;
+  color: rgb(150, 213, 28);
+  text-shadow: rgb(13, 85, 29) 2px 2px;
   font-size: 2rem;
   font-weight: 400;
   line-height: 1;
@@ -4380,7 +4397,7 @@ transform: translateY(10%);
   width: 34px;
   height: 34px;
   line-height: 34px;
-  background-color: #46a1f0;
+  background-color: rgb(13, 85, 29);
   border-radius: 1px 2px 2px 1px;
   color: #ffffff;
   font-size: 14px;
@@ -4389,7 +4406,7 @@ transform: translateY(10%);
   text-align: center;
 }
 .member .member-hover .member-social a:hover {
-  background-color: #f3695f;
+  background-color: rgb(150, 213, 28);
 }
 /* Hover Effect */
 .team-1 .member:hover .member-overlay {
@@ -7731,12 +7748,12 @@ td.cart-product-quantity {
   border-left-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  color: #46a1f0 !important;
+  color: greenyellow !important;
 }
 .product-tabs .nav-tabs > li.active > a,
 .product-tabs .nav-tabs > li.active > a:hover,
 .product-tabs .nav-tabs > li.active > a:focus {
-  color: #46a1f0 !important;
+  color: greenyellow !important;
   border: none;
   border-right: 1px solid #d0d0d0;
   background-color: #ffffff;
@@ -8544,7 +8561,7 @@ td.cart-product-quantity {
   width: 20px;
   position: absolute;
   display: inline-block;
-  background-color: #46a1f0;
+  background-color: green;
 }
 .heading-1 p:last-child {
   color: #777777;

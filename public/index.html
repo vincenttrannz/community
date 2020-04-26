@@ -9,6 +9,8 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CPoppins:300,400,500,600,700' rel='stylesheet' type='text/css'>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/c4332e3cbe.js"></script>
+  <!-- ANIMATE.CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <!-- Stylesheets
     ============================================= -->
   <link href="assets/stylesheet/external.css" rel="stylesheet">
@@ -20,8 +22,15 @@
   <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css"> 
 </head>
 <body>
+  <div class="preloader">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
   <div id="app"></div>
-
+  
   <!-- WEBPACK BUNDLE JS -->
   <script src="/bundle.js"></script>
   <!-- Footer Scripts
@@ -42,5 +51,6 @@
   <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
   <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
   <script src="assets/js/rsconfig.js"></script>
+ 
 </body>
 </html>

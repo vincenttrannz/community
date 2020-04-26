@@ -6,10 +6,8 @@ class AboutUs extends Component {
     return (
       <>
       <section id='shortcode9' className='shortcode-9'>
-        <div className='color-overlay'>
-          <div className='video-container'>
-            <video src='/assets/cleanbeach.mp4' autoPlay loop></video>
-          </div>
+        <div className='video-container'>
+          <video src='/assets/cleanbeach.mp4' autoPlay loop></video>
         </div>
         <div className='container'>
           <div className='row heading-1 mb-60 clearfix'>

@@ -13,8 +13,8 @@ class OurTeam extends Component {
                 <h2>The Team</h2>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-12  col-md-7">
-              <p class="mb-0">Meet Our Awesome Team ! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <div className="col-xs-12 col-sm-12  col-md-7">
+              <p className="mb-0">Meet Our Awesome Team ! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
             </div>
           </div>
           <div className='row'>
