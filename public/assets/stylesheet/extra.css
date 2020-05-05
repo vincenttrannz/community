@@ -1,0 +1,40 @@
+.background-login, .background-register, .background-profile{
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-login {
+  /* The image used */
+  background-image: url("/assets/images/background/community.jpg");
+}
+
+.background-register{
+  /* The image used */
+  background-image: url("/assets/images/background/community1.png");
+}
+
+.background-profile{
+  /* The image used */
+  background-image: url("/assets/images/background/community2.png");
+}
+
+/* PROFILE FORM */
+.inline-form {
+  display: flex;
+  margin: auto;
+}
+
+#firstname, #lastname, #city, #zipCode, #phone, #birthday {
+  width: 100%;
+}
+
+#gender{
+  width: 55%;
+  margin-right: 20px;
+}
+
+#firstname, #city, #phone {
+  margin-right: 20px;
+}

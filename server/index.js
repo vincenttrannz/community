@@ -1,3 +1,8 @@
+if (process.env.NODE_ENV != 'production') {
+  const envConfig = require('dotenv').config()
+  if (envConfig.error) throw envConfig.error
+}
+
 const server = require('./server')
 
 const port = process.env.PORT || 3000

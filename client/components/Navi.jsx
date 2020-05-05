@@ -10,9 +10,9 @@ class Navi extends Component {
               <div className="navbar-header">
                 <Link className="logo" to="/">
                   <span className='logo-text'>
-                    <img src="assets/images/logo/green.png" alt="Green Logo"/>
+                    <img src="assets/images/logo/koru-yinguan.png" alt="Logo"/>
                     <h3>&nbsp; GO&nbsp;</h3>
-                    <h3>GREEN</h3>
+                    <h3>BLUE</h3>
                   </span>
                 </Link>
               </div>
@@ -33,8 +33,8 @@ class Navi extends Component {
                   <li className="has-dropdown">
                     <a href="#" data-toggle="dropdown" className="dropdown-toggle link-hover" data-hover="Join">Join</a>
                     <ul className='dropdown-menu'>
-                      <li><a href=''>Login</a></li>
-                      <li><a href="">Signup</a></li>
+                      <li><Link to='/login'>Login</Link></li>
+                      <li><Link to='/register'>Register</Link></li>
                       <li><a href="">Password Reset</a></li>
                     </ul>
                   </li>

@@ -2084,11 +2084,11 @@ nav .link-hover:hover {
 }
 
 .logo-text h3:first-of-type{
-  color: rgb(13, 85, 29);
+  color: aliceblue;
 }
 
 .logo-text h3:last-of-type{
-  color: rgb(150, 213, 28);
+  color: rgb(51, 76, 140);
 }
 
 .header .navbar .logo-light {
