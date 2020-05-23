@@ -8,6 +8,12 @@ export function getProfiles(){
   .then(res => res.body)
 }
 
+export function getProfileById(id){
+  return request
+  .get(`${profilesUrl}${id}`)
+  .then(res => res.body)
+}
+
 export function addProfile(profile){
   return request
   .post(profilesUrl)

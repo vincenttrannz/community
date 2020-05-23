@@ -28,7 +28,7 @@ export class Register extends Component {
       return this.props.dispatch(loginError("Passwords don't match, please try again"))
     }
 
-    const confirmSuccess = () => { this.props.history.push('/profile') }
+    const confirmSuccess = () => { this.props.history.push('/create-profile') }
 
     this.props.dispatch(registerUserRequest({ username, email, password,}, confirmSuccess))
   }

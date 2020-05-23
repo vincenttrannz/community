@@ -2,10 +2,10 @@ import {combineReducers} from 'redux'
 // Import your function here
 import users from './users'
 import auth from './auth'
-import profiles from './profiles'
+import profile from './profile'
 
 export default combineReducers({
   auth,
   users,
-  profiles,
+  profile,
 })

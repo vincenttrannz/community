@@ -19,7 +19,6 @@ export class Login extends Component {
   submit = event => {
     event.preventDefault()
     let { username, password } = this.state
-    console.log(this.state)
     const confirmSuccess = () => { this.props.history.push('/profile') }
     this.props.dispatch(loginUser({ username, password }, confirmSuccess))
   }
@@ -67,7 +66,6 @@ export class Login extends Component {
 }
 
 const mapStateToProps = ({ auth }) => {
-  console.log(auth)
   return {
     auth
   }

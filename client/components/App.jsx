@@ -9,6 +9,7 @@ import Navi from './Navi'
 import Login from './Login'
 import Register from './Register'
 
+import CreateProfile from './CreateProfile'
 import Profile from './Profile'
 import Hello from './Hello'
 
@@ -40,6 +41,7 @@ class App extends Component{
 
         {auth.isAuthenticated && 
         <>
+          <Route path="/create-profile" component={CreateProfile}/>
           <Route path="/profile" component={Profile}/>
           <Route path="/hello" component={Hello}/>
         </>
